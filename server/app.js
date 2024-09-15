@@ -14,7 +14,7 @@ const app= express();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin: "http://localhost:3000",
+    origin: "https://chat-website-eta.vercel.app",
     credentials: true
 }));
 
