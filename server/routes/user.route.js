@@ -4,6 +4,6 @@ import { getUsersForSidebar } from "../controllers/user.controller.js";
 
 const userRoute= express.Router();
 
-userRoute.get("/", isAuthorized, getUsersForSidebar);
+userRoute.get("/", getUsersForSidebar);
 
 export default userRoute;
