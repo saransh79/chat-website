@@ -14,7 +14,7 @@ const app= express();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin: "https://chat-website-eta.vercel.app",
+    origin: ["https://chat-website-glho.vercel.app", "https://chat-website-glho-git-main-saransh79s-projects.vercel.app"],
     credentials: true
 }));
 
